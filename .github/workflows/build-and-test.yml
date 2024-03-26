@@ -25,7 +25,7 @@ jobs:
       run: |
         pip wheel -w dist .
         
-    - name: Install and test
+    - name: Install
       run: |
         pip install power-system-simulation[dev] --find-links=dist
 
