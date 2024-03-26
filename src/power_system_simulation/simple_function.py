@@ -2,8 +2,9 @@
 A module with simple function
 """
 
+
 def add(a: int, b: int) -> int:
-    """ Add two numbers
+    """Add two numbers
 
     Args:
         a: number a
