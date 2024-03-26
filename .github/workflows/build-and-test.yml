@@ -32,3 +32,8 @@ jobs:
     - name: Test with pytest
       run: |
         pytest
+
+    - name: Check the format
+      run: |
+        isort --check .
+        black --check .
