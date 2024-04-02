@@ -18,3 +18,20 @@ After installation, run the test.
 ```shell
 pytest
 ```
+
+## Code style and quality check
+
+You can run the following two commands to automatically format your code style.
+
+```shell
+isort .
+black .
+```
+
+You can run the following command to check the code quality.
+It will return errors if the quality check fails.
+You need to read the errors and make required adjustments.
+
+```shell
+pylint power_system_simulation 
+```
