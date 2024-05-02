@@ -35,3 +35,14 @@ You need to read the errors and make required adjustments.
 ```shell
 pylint power_system_simulation 
 ```
+
+## Folder structure of the repository
+
+The folder structure of the repository is explained as below.
+
+
+* [`src/power_system_simulation`](./src/power_system_simulation) is the main folder of the package. You should put your new functionality code there.
+* [`tests`](./tests) is the folder containing the test files. You should put your test code there.
+* [`example`](./example) contains the example notebook. You should modify the notebook for your presentation.
+* [`.vscode`](./.vscode) contains the setting file for the IDE VSCode.
+* [`.github/workflows`](./.github/workflows) contains the continuous integration (CI) configurations.
