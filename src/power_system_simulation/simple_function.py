@@ -14,3 +14,8 @@ def add(a: int, b: int) -> int:
         added number
     """
     return a + b
+
+
+def multiply(a: int, b: int):
+    """Multiply two numbers"""
+    return a * b
